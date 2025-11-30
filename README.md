@@ -1,6 +1,6 @@
-1. NAME = B Keerthi
-2 .Collage = Srinivasa Ramanujan Institute of technology 
-3. Contact Number = 8688853421
+1. NAME = B Keerthi  
+ 2 .Collage = Srinivasa Ramanujan Institute of technology 
+  3. Contact Number = 8688853421
 
 
 Employee Attendance System
@@ -77,6 +77,6 @@ How to Run
 3. Start Frontend (npm run dev in /frontend).
 4. Open your browser at http://localhost:5173.
 5. Login Credentials:
-6. Manager: manager@admin.com / 123456
-7. Employee: john@emp.com / 123456
+6. Manager: manager@admin.com /  password = 123456
+7. Employee: john@emp.com / password = 123456
 
