@@ -33,7 +33,7 @@ A full-stack MERN application for tracking employee attendance, managing leaves,
 
 📸 Screenshots
 ### Dashboard
-![Dashboard] (Screenshots/Dashboard.png)
+![Dashboard](Screenshots/Dashboard.png)
 
 
 ⚙️ Environment Variables
