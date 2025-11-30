@@ -1,3 +1,8 @@
+NAME = B Keerthi
+Collage = Srinivasa Ramanujan Institute of technology 
+Contact Number = 8688873421
+
+
 Employee Attendance System
 
 A full-stack MERN application for tracking employee attendance, managing leaves, and generating reports. The system features role-based access control for Employees and Managers.
