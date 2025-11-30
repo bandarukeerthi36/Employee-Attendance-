@@ -39,38 +39,26 @@ To run this project locally, you will need to add the following environment vari
 `JWT_SECRET` = 123456
 
 ## 💻 Setup & Installation
-
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/bandarukeerthi36/Employee-Attendance-.git
-cd Employee-Attendance
- Backend Setup
-code
-Bash
+git clone https://github.com/YOUR_USERNAME/attendance-system.git
+cd attendance-system
+
+2. Backend Setup
 cd backend
 npm install
-Create a .env file in the backend folder and add your variables (see .env.example).
-Seed the Database (Create Sample Users):
-code
-Bash
-node seed.js
-This creates a Manager (manager@admin.com / 123456) and Employees with dummy attendance data.
-Start the Server:
-code
-Bash
-npm run start
-3. Frontend Setup
-Open a new terminal.
-code
-Bash
-cd frontend
-npm install
-npm run dev
-🧪 How to Run
-Ensure MongoDB is running (or connected via Cloud URI).
-Start Backend (npm run start in /backend).
-Start Frontend (npm run dev in /frontend).
-Open your browser at http://localhost:5173.
-Login Credentials:
-Manager: manager@admin.com / 123456
-Employee: john@emp.com / 123456
+
+Seed the Database (Create Sample Users):  node seed.js
+
+Start the Server: npm run start
+
+
+How to Run
+1. Ensure MongoDB is running (or connected via Cloud URI).
+2. Start Backend (npm run start in /backend).
+3. Start Frontend (npm run dev in /frontend).
+4. Open your browser at http://localhost:5173.
+5. Login Credentials:
+6. Manager: manager@admin.com / 123456
+7. Employee: john@emp.com / 123456
+
