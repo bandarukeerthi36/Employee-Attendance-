@@ -41,5 +41,5 @@ To run this project locally, you will need to add the following environment vari
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/attendance-system.git
+git clone 
 cd attendance-system
