@@ -1,6 +1,6 @@
 1. NAME = B Keerthi
 2 .Collage = Srinivasa Ramanujan Institute of technology 
-3. Contact Number = 8688873421
+3. Contact Number = 8688853421
 
 
 Employee Attendance System
@@ -32,8 +32,8 @@ A full-stack MERN application for tracking employee attendance, managing leaves,
 - Export Attendance Reports to CSV.
 
 📸 Screenshots
-(screenshots/dashboard.png)
-*(Add more screenshots in a 'screenshots' folder if needed)*
+### Dashboard
+![Dashboard](Screenshots/Screenshot 2025-11-30 171404.png)
 
 ⚙️ Environment Variables
 
