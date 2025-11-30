@@ -1,6 +1,6 @@
 1. NAME = B Keerthi  
- 2 .Collage = Srinivasa Ramanujan Institute of technology 
-  3. Contact Number = 8688853421
+2. Collage = Srinivasa Ramanujan Institute of technology 
+3. Contact Number = 8688853421
 
 
 Employee Attendance System
