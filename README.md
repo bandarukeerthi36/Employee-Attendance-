@@ -1,6 +1,8 @@
 Employee Attendance System
 
 A full-stack MERN application for tracking employee attendance, managing leaves, and generating reports. The system features role-based access control for Employees and Managers.
+To Check ADMIN Page you need to Login as user = manager@admin.com
+                                         password = 123456
 
 🚀 Live Demo
 - **Frontend (Render): https://employee-attendance-2-l796.onrender.com
