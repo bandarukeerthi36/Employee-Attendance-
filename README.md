@@ -1,8 +1,7 @@
 Employee Attendance System
 
 A full-stack MERN application for tracking employee attendance, managing leaves, and generating reports. The system features role-based access control for Employees and Managers.
-To Check ADMIN Page you need to Login as user = manager@admin.com
-                                         password = 123456
+
 
 🚀 Live Demo
 - **Frontend (Render): https://employee-attendance-2-l796.onrender.com
@@ -45,3 +44,33 @@ To run this project locally, you will need to add the following environment vari
 ```bash
 git clone https://github.com/bandarukeerthi36/Employee-Attendance-.git
 cd Employee-Attendance
+ Backend Setup
+code
+Bash
+cd backend
+npm install
+Create a .env file in the backend folder and add your variables (see .env.example).
+Seed the Database (Create Sample Users):
+code
+Bash
+node seed.js
+This creates a Manager (manager@admin.com / 123456) and Employees with dummy attendance data.
+Start the Server:
+code
+Bash
+npm run start
+3. Frontend Setup
+Open a new terminal.
+code
+Bash
+cd frontend
+npm install
+npm run dev
+🧪 How to Run
+Ensure MongoDB is running (or connected via Cloud URI).
+Start Backend (npm run start in /backend).
+Start Frontend (npm run dev in /frontend).
+Open your browser at http://localhost:5173.
+Login Credentials:
+Manager: manager@admin.com / 123456
+Employee: john@emp.com / 123456
