@@ -32,8 +32,20 @@ A full-stack MERN application for tracking employee attendance, managing leaves,
 - Export Attendance Reports to CSV.
 
 📸 Screenshots
-### Dashboard
+### Dashboard for Manager
 ![Dashboard](Screenshots/Dashboard.png)
+
+### Dashboard for Employee
+![Dashboard](Screenshots/EmployeeDashboard.png)
+
+### Login page 
+![Login](Screenshots/Login.png)
+
+### Register page
+![Register](Screenshots/Register.png)
+
+### Reports page
+![Reports](Screenshots/Reports.png)
 
 
 ⚙️ Environment Variables
