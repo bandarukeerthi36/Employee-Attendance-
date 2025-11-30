@@ -14,7 +14,7 @@ export default function Reports() {
   const fetchData = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await axios.get('https://employee-attendance-1-35xc.onrender.com//api/attendance/all', {
+      const res = await axios.get('https://employee-attendance-3.onrender.com/api/attendance/all', {
         headers: { Authorization: `Bearer ${token}` }
       });
       setAttendance(res.data);

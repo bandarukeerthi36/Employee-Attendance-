@@ -6,7 +6,7 @@ export default function History() {
   const config = { headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } };
 
   useEffect(() => {
-    axios.get('https://employee-attendance-1-35xc.onrender.com//api/attendance/my-history', config).then(res => setHistory(res.data));
+    axios.get('https://employee-attendance-3.onrender.com/api/attendance/my-history', config).then(res => setHistory(res.data));
   }, []);
 
   return (

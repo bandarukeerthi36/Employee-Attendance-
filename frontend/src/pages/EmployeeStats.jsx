@@ -18,7 +18,7 @@ export default function EmployeeStats() {
 
   useEffect(() => {
     const token = localStorage.getItem('token');
-    axios.get('https://employee-attendance-1-35xc.onrender.com//api/attendance/all', {
+    axios.get('https://employee-attendance-3.onrender.com/api/attendance/all', {
       headers: { Authorization: `Bearer ${token}` }
     }).then(res => setAttendance(res.data));
   }, []);

@@ -9,7 +9,7 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://employee-attendance-1-35xc.onrender.com//api/auth/register', formData);
+      await axios.post('https://employee-attendance-3.onrender.com/api/auth/register', formData);
       alert('Registration Successful! Please Login.');
       navigate('/');
     } catch (err) { alert('Error registering.'); }

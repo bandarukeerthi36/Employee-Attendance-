@@ -30,28 +30,28 @@ export default function Dashboard() {
 
   const fetchManagerData = async () => {
     try {
-      const res = await axios.get('https://employee-attendance-1-35xc.onrender.com//api/dashboard/manager', config);
+      const res = await axios.get('https://employee-attendance-3.onrender.com/api/dashboard/manager', config);
       setData(res.data);
     } catch (err) { console.error(err); }
   };
 
   const fetchEmployeeData = async () => {
     try {
-      const res = await axios.get('https://employee-attendance-1-35xc.onrender.com//api/dashboard/employee', config);
+      const res = await axios.get('https://employee-attendance-3.onrender.com/api/dashboard/employee', config);
       setData(res.data);
     } catch (err) { console.error(err); }
   };
 
   const fetchTodayStatus = async () => {
     try {
-      const res = await axios.get('https://employee-attendance-1-35xc.onrender.com//api/attendance/today', config);
+      const res = await axios.get('https://employee-attendance-3.onrender.com/api/attendance/today', config);
       setTodayStatus(res.data);
     } catch (err) { console.error(err); }
   };
 
   const handleAttendance = async (type) => {
     try {
-      await axios.post(`https://employee-attendance-1-35xc.onrender.com//api/attendance/${type}`, {}, config);
+      await axios.post(`https://employee-attendance-3.onrender.com/api/attendance/${type}`, {}, config);
       fetchTodayStatus();
       fetchEmployeeData();
     } catch (err) { alert(err.response?.data?.message || 'Error'); }
